@@ -15,9 +15,9 @@ import (
 var rd *render.Render
 
 type Todo struct {
-	ID        int    `json:"id, omitempty"`
+	ID        int    `json:"id,omitempty"`
 	Name      string `json:"name"`
-	Completed bool   `json:"completed, omitempty"`
+	Completed bool   `json:"completed,omitempty"`
 }
 
 var todoMap map[int]Todo
